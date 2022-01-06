@@ -1,69 +1,74 @@
+*{
+  box-sizing: border-box;
+ }
 .first {
-      background-image: url(../imeg/beachshowcase.jpg);
+  background-image: url(../imeg/beachshowcase.jpg);
   color: #926239;
-    height: 100vh;
-    background-position: bottom;
-    background-size: cover;
-         }
- .blok-second {
-   padding:35vh 0vh;
-   line-height: 3em;
-   }
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+}
+.blok-second {
+  padding: 35vh 0vh;
+  line-height: 3em;
+}
 .heading {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
-  }
+}
 .text {
   text-align: center;
   font-size: 25px;
-   }
+}
 .btn {
+  display: inline-block;
   color: #926239;
-  width: 130px;
-  height: 50px;
+  padding: 0px 25px;
+  border: 1px solid black;
   border-radius: 10px;
   font-size: 18px;
+  text-decoration: none;
 }
 .cont-btn {
   text-align: center;
 }
-.btn:hover{
-  color :white;
-  background-color:#926239 ;
+.btn:hover {
+  color: white;
+  background-color: #926239;
   cursor: pointer;
-  }
-.text1, .text2, .text3, .text4, .text5 {
-  display: inline-block;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+    display: inline-block;
   font-size: 20px;
   line-height: 1.3em;
-}
+  padding: 20px;
+  }
 .text1 {
-  padding: 20px;
-  color: white;
+   color: white;
   background-color: #926239;
   text-align: center;
 }
-.text2{
+.text2 {
   color: #926239;
-  padding: 20px;
-  text-align: center;
+    text-align: center;
 }
-.text3{
-  padding: 20px;
-  color: white;
+.text3 {
+    color: white;
   background-color: #926239;
-    width: 29.9vw;
+  width:33.1%;
 }
-.text4{
-  color: #926239;
-  padding: 20px;
-  width: 29.8vw;
+.text4 {
+    color: #926239;
+  width: 33.1%;
 }
-.text5{
-  padding: 20px;
-  color: white;
+.text5 {
+    color: white;
   background-color: #926239;
-    width: 29.8vw;
-}
+  width: 33.1%;
+  }
